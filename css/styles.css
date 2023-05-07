@@ -53,6 +53,7 @@ body {
     --cloud-color: #F4F4FD;
     --paragraf-color: #434455;
     --header-border-color: #e7e9fc;
+    --portfolio-botton-border-color: #e7e9fc;
 }
 
 
@@ -488,6 +489,10 @@ body {
     text-align: start;
 }
 
+.logo-second-part-white {
+    display: inline-block;
+}
+
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
@@ -495,6 +500,10 @@ body {
 }
 
 /*portfolio*/
+.selector {
+    padding: 96px 0 120px;
+}
+
 .page-header-container {
     padding: 96px 0 120px;
 }
@@ -519,15 +528,19 @@ body {
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    padding: 12px 24px;
+    border: 1px solid var(--portfolio-botton-border-color)
 }
 
 .selector-buttons-item:not(:last-child) {
     margin-right: 24px;
+
 }
 
 .selector-buttons-list {
     padding-top: 96px;
     padding-bottom: 72px;
+    margin-bottom: 72px
 }
 
 
@@ -545,7 +558,8 @@ body {
     order: 0;
     flex-grow: 0;
     background: #404BBF;
-    cursor: pointer
+    cursor: pointer;
+    border: 1px solid transparent
 }
 
 .selector-buttons-list {
@@ -558,7 +572,17 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 120px;
+
 }
+
+.selektor-list:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.selektor-list-item {
+    margin-bottom: 48px;
+}
+
 
 .selektor-title-flex {
     margin-top: 32px;
@@ -567,4 +591,11 @@ body {
 
 .selektor-text-flex {
     padding-bottom: 32px;
+
+}
+
+.selektor-list-item-description {
+    padding: 32px 16px;
+    border-top: none;
+    border: 1px solid #e7e9fc;
 }
