@@ -40,18 +40,19 @@ body {
     background: #FFFFFF;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 15px;
+
 }
 
 :root {
     --text-color: #2e2f42;
     --cloud-color: #F4F4FD;
     --paragraf-color: #434455;
+    --header-border-color: #e7e9fc;
 }
 
 
@@ -111,6 +112,11 @@ body {
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.page-header {
+
+    border-bottom: 1px solid var(--header-border-color)
 }
 
 .page-header-container {
@@ -257,22 +263,24 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    padding: 188px 0
 }
 
 .modal-open-btn,
 .modal-open-btn-theme-dark {
-    display: flex;
+    display: block;
     justify-content: center;
     margin-top: 48px;
     margin-bottom: 188px;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    border: none;
 }
 
 
 .main-title {
-    width: 496px;
+    max-width: 496px;
     margin-top: 0;
     font-style: normal;
     font-weight: 700;
@@ -348,6 +356,8 @@ body {
 .about-section-container {
     display: flex;
     align-content: space-around;
+    padding: 120px 0;
+
 }
 
 .about-information {
@@ -365,13 +375,20 @@ body {
     width: 264px;
 }
 
-.h3-about {
+.title-about {
     padding-top: 110px;
+    margin-bottom: 8px;
 }
 
 /*our-work section*/
+.our-work-container {
+    padding-bottom: 120px;
+}
+
+
 .our-work-title {
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .our-work-list {
@@ -387,11 +404,16 @@ body {
     background-color: var(--cloud-color);
 }
 
+.workers-description-in-list {
+    padding: 32px 16px
+}
+
 .workers-title {
     padding-top: 120px;
 }
 
 .workers-title-common {
+    text-align: center;
     margin-top: 32px;
     margin-bottom: 8px;
 }
@@ -403,6 +425,8 @@ body {
     align-items: center;
     align-content: center;
     margin-top: 72px;
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .workers {
@@ -414,6 +438,7 @@ body {
 
 .workers-text-common {
     padding-bottom: 32px;
+    text-align: center;
 }
 
 
@@ -436,10 +461,15 @@ body {
 .footer-container {
     display: flex;
     flex-direction: column;
+    padding: 100px 0
 }
 
-.bottom-logo {
+.bottom-logo,
+.logo-second-part-white {
     padding-top: 100px;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-align: start;
 }
 
 .footer {
@@ -447,6 +477,10 @@ body {
 }
 
 /*portfolio*/
+.page-header-container {
+    padding: 96px 0 120px;
+}
+
 
 .botton-in-list {
     font-family: "Roboto", sans-serif;
