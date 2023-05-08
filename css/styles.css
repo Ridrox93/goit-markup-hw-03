@@ -123,15 +123,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
-
 }
 
 .page-navigation {
     display: flex;
     align-items: center;
-
 }
 
 .menu-list {
@@ -229,12 +225,17 @@ body {
 .adress-link-mail,
 .adress-link-tel {
     display: block;
-    padding: 24px 0;
+    /* padding: 24px 0;*/
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraf-color);
+}
+
+.contact-mail,
+.contact-tel {
+    padding: 24px 0;
 }
 
 .adress-link-mail:hover,
