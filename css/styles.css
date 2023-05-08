@@ -193,12 +193,12 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding: 24px 0
 }
 
 .menu-link {
     color: var(--text-color);
     padding: 24px 0;
+
 }
 
 .menu-link:hover,
