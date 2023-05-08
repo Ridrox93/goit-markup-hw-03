@@ -211,7 +211,7 @@ body {
 
 .menu-list:hover,
 .menu-list:focus,
-.menu-list:hover,
+.menu-item:hover,
 .menu-item:focus {
     color: #404bbf;
 }
@@ -228,7 +228,8 @@ body {
 
 .adress-link-mail,
 .adress-link-tel {
-
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -359,13 +360,13 @@ body {
     padding: 188px 0;
 }
 
+.about {
+    padding: 120px 0;
+}
+
 .about-section-container {
     display: flex;
     align-content: space-around;
-    padding: 120px 0;
-
-
-
 }
 
 .about-information {
@@ -477,11 +478,11 @@ body {
 
 }
 
-.footer-container {
+/*.footer-container {
     display: flex;
     flex-direction: column;
 
-}
+}*/
 
 .bottom-logo,
 .logo-second-part-white {
