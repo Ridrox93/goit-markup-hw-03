@@ -123,8 +123,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 
 
 }
@@ -267,7 +266,6 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 188px 0;
 }
 
 .main-title {
@@ -282,7 +280,6 @@ body {
     color: #FFFFFF;
     background-color: var(--text-color);
     margin-bottom: 0;
-    padding-top: 188px;
 }
 
 .title-second {
@@ -346,7 +343,7 @@ body {
     display: block;
 
     margin-top: 48px;
-    margin-bottom: 188px;
+    padding-bottom: 188px;
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
@@ -355,13 +352,13 @@ body {
 
 /*about - section*/
 .order-section {
-    padding: 120px 0;
+    padding: 188px 0;
 }
 
 .about-section-container {
     display: flex;
     align-content: space-around;
-    padding: 120px 0;
+
 
 }
 
@@ -381,7 +378,7 @@ body {
 }
 
 .title-about {
-    padding-top: 110px;
+
     margin-bottom: 8px;
 }
 
@@ -390,13 +387,11 @@ body {
     padding-bottom: 120px;
 }
 
-.our-work-container {
-    padding-bottom: 120px;
-}
+.our-work-container {}
 
 
 .our-work-title {
-    padding-top: 120px;
+
     margin-bottom: 72px;
 }
 
@@ -404,7 +399,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 72px;
-    padding-bottom: 120px;
+
     gap: 24px;
 }
 
@@ -424,13 +419,13 @@ body {
 }
 
 .workers-title {
-    padding-top: 120px;
+
     margin-bottom: 72px;
 }
 
 .workers-title-common {
     text-align: center;
-    margin-top: 32px;
+
     margin-bottom: 8px;
 }
 
@@ -440,9 +435,9 @@ body {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    margin-top: 72px;
+
     border-radius: 0px 0px 4px 4px;
-    gap: 24px;
+
 
 }
 
@@ -454,7 +449,7 @@ body {
 }
 
 .workers-text-common {
-    padding-bottom: 32px;
+
     text-align: center;
 }
 
@@ -478,12 +473,12 @@ body {
 .footer-container {
     display: flex;
     flex-direction: column;
-    padding: 100px 0
+
 }
 
 .bottom-logo,
 .logo-second-part-white {
-    padding-top: 100px;
+
     display: inline-block;
     margin-bottom: 16px;
     text-align: start;
@@ -504,9 +499,7 @@ body {
     padding: 96px 0 120px;
 }
 
-.page-header-container {
-    padding: 96px 0 120px;
-}
+
 
 
 .botton-in-list {
@@ -538,8 +531,7 @@ body {
 }
 
 .selector-buttons-list {
-    padding-top: 96px;
-    padding-bottom: 72px;
+
     margin-bottom: 72px
 }
 
@@ -571,7 +563,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 120px;
 
 }
 
