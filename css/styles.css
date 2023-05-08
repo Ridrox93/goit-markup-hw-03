@@ -197,6 +197,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    padding: 24px 0
 }
 
 .menu-link {
@@ -331,6 +332,7 @@ body {
     flex-grow: 0;
     background-color: #4D5AE5;
     cursor: pointer;
+    height: 56px;
 }
 
 .modal-open-btn:hover,
@@ -343,11 +345,13 @@ body {
     display: block;
 
     margin-top: 48px;
-    padding-bottom: 188px;
+
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
     border: none;
+    height: 56px;
+
 }
 
 /*about - section*/
@@ -358,6 +362,8 @@ body {
 .about-section-container {
     display: flex;
     align-content: space-around;
+    padding: 120px 0;
+
 
 
 }
@@ -446,6 +452,7 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    gap: 24px;
 }
 
 .workers-text-common {
@@ -563,9 +570,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 24px;
+    row-gap: 48px;
 
 }
 
+/*
 .selektor-list:not(:nth-child(3n)) {
     margin-right: 24px;
 }
@@ -573,7 +583,7 @@ body {
 .selektor-list-item {
     margin-bottom: 48px;
 }
-
+*/
 
 .selektor-title-flex {
     margin-top: 32px;
@@ -587,6 +597,6 @@ body {
 
 .selektor-list-item-description {
     padding: 32px 16px;
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
