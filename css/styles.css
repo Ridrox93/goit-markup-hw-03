@@ -219,7 +219,7 @@ body {
 }
 
 .adress-link-mail {
-    margin-right: 40px;
+
     margin-left: auto;
 }
 
@@ -337,7 +337,6 @@ body {
     flex-grow: 0;
     background-color: #4D5AE5;
     cursor: pointer;
-    height: 56px;
 }
 
 .modal-open-btn:hover,
@@ -348,14 +347,10 @@ body {
 .modal-open-btn,
 .modal-open-btn-theme-dark {
     display: block;
-
     margin-top: 48px;
-
     border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
     border: none;
-    height: 56px;
+    padding: 16px 32px;
 
 }
 
@@ -384,7 +379,6 @@ body {
 
 .order-text {
     margin-top: 8px;
-    padding-bottom: 120px;
     width: 264px;
 }
 
@@ -400,11 +394,6 @@ body {
 
 .our-work-container {}
 
-
-.our-work-title {
-
-    margin-bottom: 72px;
-}
 
 .our-work-list {
     display: flex;
@@ -478,8 +467,6 @@ body {
     color: var(--cloud-color);
     width: 264px;
     margin-top: 17.5px;
-    padding-bottom: 100px;
-
 }
 
 /*.footer-container {
@@ -492,7 +479,6 @@ body {
 .logo-second-part-white {
 
     display: inline-block;
-    margin-bottom: 16px;
     text-align: start;
 }
 
@@ -528,8 +514,6 @@ body {
     order: 0;
     flex-grow: 0;
     background: #F4F4FD;
-    width: 126px;
-    height: 48px;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -591,14 +575,9 @@ body {
 */
 
 .selektor-title-flex {
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
-.selektor-text-flex {
-    padding-bottom: 32px;
-
-}
 
 .selektor-list-item-description {
     padding: 32px 16px;
